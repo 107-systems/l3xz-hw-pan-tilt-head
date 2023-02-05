@@ -148,7 +148,7 @@ def export_file(ctx: Ctx, format: Format, file, doc: LazyDocument) -> Counter:
     
     return Counter(saved=1)
 
-def visit_file(ctx: Ctx, file) -> Counter:
+def visit_file(ctx: Ctx, file, is_dry_run: bool, progress: adsk.core.ProgressDialog) -> Counter:
     log(f'Visiting file {file.name} v{file.versionNumber} . {file.fileExtension}')
 
     if file.fileExtension != 'f3d':
@@ -160,32 +160,39 @@ def visit_file(ctx: Ctx, file) -> Counter:
     counter = Counter()
 
     for format in ctx.formats:
-        try:
-            counter += export_file(ctx, format, file, doc)
-        except Exception:
-            counter.errored += 1
-            log(traceback.format_exc())
+        progress.message = "Exporting {} as {}...".format(file.name, format)
+        if not is_dry_run:
+            try:
+                counter += export_file(ctx, format, file, doc)
+            except Exception:
+                counter.errored += 1
+                log(traceback.format_exc())
     
     doc.close()
     return counter
 
-def visit_folder(ctx: Ctx, folder, name_override: typing.Optional[str] = None) -> Counter:
+def visit_folder(ctx: Ctx, folder, is_dry_run: bool, progress: adsk.core.ProgressDialog) -> Counter:
+    counter = Counter()
+        
+    if progress.wasCancelled:
+        return counter
+
+    progress.message = "Visiting folder {}".format(folder.name)
     log(f'Visiting folder {folder.name}')
 
-    folder_name = folder.name if name_override is None else name_override
-    new_ctx = ctx.extend(sanitize_filename(folder_name))
-
-    counter = Counter()
+    new_ctx = ctx.extend(sanitize_filename(folder.name))
 
     for file in folder.dataFiles:
         try:
-            counter += visit_file(new_ctx, file)
+            counter += visit_file(new_ctx, file, is_dry_run, progress)
         except Exception:
             log(f'Got exception visiting file\n{traceback.format_exc()}')
             counter.errored += 1
 
+    progress.progressValue += 1
+
     for sub_folder in folder.dataFolders:
-        counter += visit_folder(new_ctx, sub_folder)
+        counter += visit_folder(new_ctx, sub_folder, is_dry_run, progress)
     
     return counter
 
@@ -195,9 +202,14 @@ def main(ctx: Ctx) -> Counter:
 
     counter = Counter()
 
+    ui: adsk.core.UserInterface = ctx.app.userInterface
+    progress: adsk.core.ProgressDialog = ui.createProgressDialog()
+    progress.isCancelButtonShown =True
     for project in ctx.app.data.dataProjects:
         if project.name in ctx.projects:
-            counter += visit_folder(ctx, project.rootFolder, ctx.folder.name)
+            progress.show("Exporting from {} Project".format(project.name), "", 0, 100, 0)
+            for sub_folder in project.rootFolder.dataFolders:
+                counter += visit_folder(ctx, sub_folder, False, progress)
             break
 
     return counter
@@ -223,7 +235,7 @@ class ExporterCommandCreatedEventHandler(adsk.core.CommandCreatedEventHandler):
             handlers.append(onDestroy)
 
             inputs = cmd.commandInputs
-
+            
             inputs.addStringValueInput('directory', 'Directory', str(Path.home() / 'Desktop/Fusion360Export'))
             
             drop = inputs.addDropDownCommandInput('file_types', 'Export Types', adsk.core.DropDownStyles.CheckBoxDropDownStyle)
@@ -307,7 +319,7 @@ def run(context):
             'Export all the things', 
             'Tooltip',
         )
-        
+
         cmd_created = ExporterCommandCreatedEventHandler()
         cmd_def.commandCreated.add(cmd_created)
         handlers.append(cmd_created)
