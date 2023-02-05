@@ -4,6 +4,7 @@
 #
 
 import adsk.core
+import adsk.fusion
 import traceback
 from pathlib import Path
 from datetime import datetime
@@ -12,6 +13,7 @@ from enum import Enum
 from dataclasses import dataclass
 import hashlib
 import re
+import typing
 
 log_file = None
 log_fh = None
@@ -35,10 +37,6 @@ def init_logging(directory):
 class Format(Enum):
     F3D = 'f3d'
     STEP = 'step'
-    STL = 'stl'
-    IGES = 'igs'
-    SAT = 'sat'
-    SMT = 'smt'
 
 FormatFromName = {x.value: x for x in Format}
 
@@ -49,8 +47,6 @@ class Ctx(NamedTuple):
     formats: List[Format]
     app: adsk.core.Application
     projects: Set[str]
-    unhide_all: bool
-    save_sketches: bool
 
     def extend(self, other):
         return self._replace(folder=self.folder / other)
@@ -67,9 +63,6 @@ class LazyDocument:
         log(f'Opening `{self._file.name}`')
         self._document = self._ctx.app.documents.open(self._file)
         self._document.activate()
-
-        if self._ctx.unhide_all:
-            unhide_all_in_document(self._document)
 
     def close(self):
         if self._document is None:
@@ -106,24 +99,6 @@ class Counter:
 def design_from_document(document: adsk.core.Document):
     return adsk.fusion.FusionDocument.cast(document).design
 
-def unhide_all_in_document(document: adsk.core.Document):
-    unhide_all_in_component(design_from_document(document).rootComponent)
-
-def unhide_all_in_component(component):
-    component.isBodiesFolderLightBulbOn = True
-    component.isSketchFolderLightBulbOn = True
-
-    for brep in component.bRepBodies:
-        brep.isLightBulbOn = True
-
-    for body in component.meshBodies:
-        body.isLightBulbOn = True
-
-    # I find the name occurrences very confusing, but apparently that is what a sub-component is called
-    for occurrence in component.occurrences:
-        occurrence.isLightBulbOn = True
-        unhide_all_in_component(occurrence.component)
-
 def sanitize_filename(name: str) -> str:
     """
     Remove "bad" characters from a filename. Right now just punctuation that Windows doesn't like
@@ -142,30 +117,8 @@ def sanitize_filename(name: str) -> str:
 
 def export_filename(ctx: Ctx, format: Format, file):
     sanitized = sanitize_filename(file.name)
-    name = f'{sanitized}_v{file.versionNumber}.{format.value}'
+    name = f'{sanitized}.{format.value}'
     return ctx.folder / name
-
-def export_sketches(ctx, component):
-    counter = Counter()
-    for sketch in component.sketches:
-        output_path = ctx.folder / f'{sanitize_filename(sketch.name)}.dxf'
-        if output_path.exists():
-            log(f'{output_path} already exists, skipping')
-            counter.skipped += 1
-        else:
-            log(f'Exporting sketch {sketch.name} in {component.name} to {output_path}')
-            try:
-                output_path.parent.mkdir(exist_ok=True, parents=True)
-                sketch.saveAsDXF(str(output_path))
-                counter.saved += 1
-            except Exception:
-                log(traceback.format_exc())
-                counter.errored += 1
-
-    for occurrence in component.occurrences:
-        counter += export_sketches(ctx.extend(sanitize_filename(occurrence.name)), occurrence.component)
-    
-    return counter
 
 def export_file(ctx: Ctx, format: Format, file, doc: LazyDocument) -> Counter:
     output_path = export_filename(ctx, format, file)
@@ -185,16 +138,8 @@ def export_file(ctx: Ctx, format: Format, file, doc: LazyDocument) -> Counter:
     # leaving this ugly, not sure what else there might be to handle per format
     if format == Format.F3D:
         options = em.createFusionArchiveExportOptions(str(output_path))
-    elif format == Format.STL:
-        options = em.createSTLExportOptions(design.rootComponent, str(output_path))
     elif format == Format.STEP:
         options = em.createSTEPExportOptions(str(output_path))
-    elif format == Format.IGES:
-        options = em.createIGESExportOptions(str(output_path))
-    elif format == Format.SAT:
-        options = em.createSATExportOptions(str(output_path))
-    elif format == Format.SMT:
-        options = em.createSMTExportOptions(str(output_path))
     else:
         raise Exception(f'Got unknown export format {format}')
 
@@ -214,10 +159,6 @@ def visit_file(ctx: Ctx, file) -> Counter:
 
     counter = Counter()
 
-    if ctx.save_sketches:
-        doc.open()
-        counter += export_sketches(ctx.extend(sanitize_filename(doc.rootComponent.name)), doc.rootComponent)
-        
     for format in ctx.formats:
         try:
             counter += export_file(ctx, format, file, doc)
@@ -228,10 +169,11 @@ def visit_file(ctx: Ctx, file) -> Counter:
     doc.close()
     return counter
 
-def visit_folder(ctx: Ctx, folder) -> Counter:
+def visit_folder(ctx: Ctx, folder, name_override: typing.Optional[str] = None) -> Counter:
     log(f'Visiting folder {folder.name}')
 
-    new_ctx = ctx.extend(sanitize_filename(folder.name))
+    folder_name = folder.name if name_override is None else name_override
+    new_ctx = ctx.extend(sanitize_filename(folder_name))
 
     counter = Counter()
 
@@ -255,12 +197,17 @@ def main(ctx: Ctx) -> Counter:
 
     for project in ctx.app.data.dataProjects:
         if project.name in ctx.projects:
-            counter += visit_folder(ctx, project.rootFolder)
+            counter += visit_folder(ctx, project.rootFolder, ctx.folder.name)
+            break
 
     return counter
 
+# +---------------------------------------------------------------------------+
+# | Fusion Hooks
+# +---------------------------------------------------------------------------+
+
 class ExporterCommandCreatedEventHandler(adsk.core.CommandCreatedEventHandler):
-    def notify(self, args):
+    def notify(self, args: adsk.core.CommandCreatedEventArgs):
         try:
             cmd = args.command
 
@@ -283,12 +230,15 @@ class ExporterCommandCreatedEventHandler(adsk.core.CommandCreatedEventHandler):
             for format in Format:
                 drop.listItems.add(format.value, format in DEFAULT_SELECTED_FORMATS)
 
-            drop = inputs.addDropDownCommandInput('projects', 'Export Projects', adsk.core.DropDownStyles.CheckBoxDropDownStyle)
-            for project in adsk.core.Application.get().data.dataProjects:
-                drop.listItems.add(project.name, True)
+            drop = inputs.addRadioButtonGroupCommandInput('projects', 'Export Project')
+            
+            app: adsk.core.Application = adsk.core.Application.get()
+            app_data: adsk.core.Data = app.data
+            project: adsk.core.DataProject = None
+            for project in app_data.dataProjects:
+                is_activated: bool = False if app_data.activeProject is None else project.name == app_data.activeProject.name
+                drop.listItems.add(project.name, is_activated)
 
-            inputs.addBoolValueInput('unhide_all', 'Unhide All Bodies', True, '', True)
-            inputs.addBoolValueInput('save_sketches', 'Save Sketches as DXF', True, '', False)
         except:
             adsk.core.Application.get().userInterface.messageBox(traceback.format_exc())
 
@@ -299,11 +249,13 @@ class ExporterCommandDestroyHandler(adsk.core.CommandEventHandler):
         except:
             adsk.core.Application.get().userInterface.messageBox(traceback.format_exc())
 
-# Dont use yield and don't copy list items, swig wants to delete things
-def selected(inputs):
-    return [it.name for it in inputs if it.isSelected]
-
 class ExporterCommandExecuteHandler(adsk.core.CommandEventHandler):
+    
+    # Dont use yield and don't copy list items, swig wants to delete things
+    @staticmethod
+    def selected(inputs):
+        return [it.name for it in inputs if it.isSelected]
+
     def notify(self, args):
         try:
             inputs = args.command.commandInputs
@@ -314,10 +266,8 @@ class ExporterCommandExecuteHandler(adsk.core.CommandEventHandler):
             ctx = Ctx(
                 app = app,
                 folder = Path(inputs.itemById('directory').value),
-                formats = [FormatFromName[x] for x in selected(inputs.itemById('file_types').listItems)],
-                projects = set(selected(inputs.itemById('projects').listItems)),
-                unhide_all = inputs.itemById('unhide_all').value,
-                save_sketches = inputs.itemById('save_sketches').value,
+                formats = [FormatFromName[x] for x in self.selected(inputs.itemById('file_types').listItems)],
+                projects = set(self.selected(inputs.itemById('projects').listItems)),
             )
 
             counter = main(ctx)
