@@ -46,7 +46,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </thead>
 <tbody valign="top">
 <tr>
-<td rowspan="7" style="background: #880000">RM0546</td>
+<td rowspan="9" bgcolor="#880000">RM0546</td>
 <td>1</td>
 <td>CF0531</td>
 <td>Dragon Beard dust guard: front plate</td>
@@ -59,7 +59,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
-    <li>powder-coated sheet w/ gluestick</li>
+    <li>powder-coated sheet w/ glue-stick</li>
     <li>no-enclosure</li>
 </ul>
 </td>
@@ -76,7 +76,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
-    <li>powder-coated sheet w/ gluestick</li>
+    <li>powder-coated sheet w/ glue-stick</li>
     <li>no-enclosure</li>
 </ul>
 </td>
@@ -93,7 +93,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
-    <li>powder-coated sheet w/ gluestick</li>
+    <li>powder-coated sheet w/ glue-stick</li>
     <li>no-enclosure</li>
 </ul>
 </td>
@@ -110,7 +110,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
-    <li>powder-coated sheet w/ gluestick</li>
+    <li>powder-coated sheet w/ glue-stick</li>
     <li>no-enclosure</li>
 </ul>
 </td>
@@ -129,7 +129,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
-    <li>powder-coated sheet w/ gluestick</li>
+    <li>powder-coated sheet w/ glue-stick</li>
     <li>no-enclosure</li>
 </ul>
 </td>
@@ -146,7 +146,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
-    <li>powder-coated sheet w/ gluestick</li>
+    <li>powder-coated sheet w/ glue-stick</li>
     <li>no-enclosure</li>
 </ul>
 </td>
@@ -165,7 +165,42 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
     <li>Infill: Gyroid 20%</li>
     <li>Solid infill threshold area: 200mm<sup>2</sup></li>
     <li>No supports</li>
-    <li>powder-coated sheet w/ gluestick</li>
+    <li>powder-coated sheet w/ glue-stick</li>
+    <li>no-enclosure</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CF0538</td>
+<td>Axial Squash Plate</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_eye_squashplate_axial.step">✓</a></td>
+<td rowspan="2"><a href="./gcode/omvh732_front_0.15mm_PETG_MINI_2h7m.gcode">✓</a></td>
+<td>Prusa Mini+ (modified)</td>
+<td>0.40</td>
+<td>0.15</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>No supports</li>
+    <li>powder-coated sheet w/ glue-stick</li>
+    <li>no-enclosure</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>CF0539</td>
+<td>Distal Squash Plate</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_eye_squashplate.step">✓</a></td>
+<td>Prusa Mini+ (modified)</td>
+<td>0.40</td>
+<td>0.15</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>No supports</li>
+    <li>powder-coated sheet w/ glue-stick</li>
     <li>no-enclosure</li>
 </ul>
 </td>
@@ -184,6 +219,14 @@ _Unless otherwise specified, all gcode was generated from step files using Prusa
 | 1   | MC[97163A147](https://www.mcmaster.com/97163A147/)     | M2.5 X 4 Heat-set Insert                              |
 
 _<sup>†</sup>Unless otherwise specified, all mechanical part numbers are McMaster Carr._
+
+### Electrical (EL)
+
+| Ct. | Part Number | Mgfr. Part Number   | Description | Link |
+|-----|-------------|---------------------|-------------|------|
+| 2   | EL2112      | openmv-cam-h7-r2    | Open Machine Vision camera module. | [openmv.io](https://openmv.io/collections/cams/products/openmv-cam-h7-r2) |
+| 1   | EL2113      | flir-lepton-adapter-module | OpenMV camera module adapter for FLIR lepton. | [openmv.io](https://openmv.io/collections/cams/products/flir-lepton-adapter-module)
+| 1   | EL2114      | flir-lepton-3-5     | FLIR Lepton imaging module. | [groupgets.com](https://store.groupgets.com/products/flir-lepton-3-5) |
 
 ### Assemblies (AS)
 

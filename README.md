@@ -10,16 +10,4 @@ This repository contains the design files for [L3X-Z](https://github.com/107-sys
   <a href="https://github.com/107-systems/l3xz"><img src="https://raw.githubusercontent.com/107-systems/.github/main/logo/l3xz-logo-memento-mori-github.png" width="40%"></a>
 </p>
 
-### Components
-- Color Camera: [OpenMV Cam H7 R2](https://openmv.io/collections/cams/products/openmv-cam-h7-r2)
-- Thermal Camera: [OpenMV Cam H7 R2](https://openmv.io/collections/cams/products/openmv-cam-h7-r2) + [FLIR Lepton Adapter Module](https://openmv.io/collections/cams/products/flir-lepton-adapter-module) + [FLIR Lepton](https://store.groupgets.com/products/flir-lepton-3-5)
-
-### Documentation
-
-TODO: build docs to readthedocs using sphinx. Docs will include:
-
-1. Guide to the design files
-1. BOM
-1. Work Instructions
-1. Index of datasheets and SDS.
-
+See the [Bill-Of-Materials](./BOM.md) document for details on the design.
