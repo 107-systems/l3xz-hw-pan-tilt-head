@@ -205,6 +205,100 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </ul>
 </td>
 </tr>
+<tr>
+<td bgcolor="#ffffff" rowspan="4">RM0543</td>
+<td>2</td>
+<td>CF0540</td>
+<td>OpenMV H7 Case, soft-mount, rear.</td>
+<td><a href="./models/02_parts_custom/process_fff/omvh732_softmount_rear.step">✓</a></td>
+<td rowspan="4"><a href="./gcode/omvh732_softparts_0.2mm_FLEX_MINI_34m.gcode">✓</a></td>
+<td>Prusa Mini+ (modified)</td>
+<td>0.40</td>
+<td>0.20</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>No supports</li>
+    <li>brim</li>
+    <li>powder-coated sheet w/ glue-stick</li>
+    <li>no-enclosure</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CF0541</td>
+<td>OpenMV H7 Case, soft-mount, front-top.</td>
+<td><a href="./models/02_parts_custom/process_fff/omhv732_softmount_front_top.step">✓</a></td>
+<td>Prusa Mini+ (modified)</td>
+<td>0.40</td>
+<td>0.20</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>No supports</li>
+    <li>brim</li>
+    <li>powder-coated sheet w/ glue-stick</li>
+    <li>no-enclosure</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CF0542</td>
+<td>OpenMV H7 Case, soft-mount, front-bottom.</td>
+<td><a href="./models/02_parts_custom/process_fff/omhv732_softmount_front_bottom.step">✓</a></td>
+<td>Prusa Mini+ (modified)</td>
+<td>0.40</td>
+<td>0.20</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>No supports</li>
+    <li>brim</li>
+    <li>powder-coated sheet w/ glue-stick</li>
+    <li>no-enclosure</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>4</td>
+<td>CF0543</td>
+<td>OpenMV H7 Case, no-connector strain-relief.</td>
+<td><a href="./models/02_parts_custom/process_fff/openmv-h7-body-strain-relief.step">✓</a></td>
+<td>Prusa Mini+ (modified)</td>
+<td>0.40</td>
+<td>0.20</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>No supports</li>
+    <li>brim</li>
+    <li>powder-coated sheet w/ glue-stick</li>
+    <li>no-enclosure</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>RM0126</td>
+<td>2</td>
+<td>CF0544</td>
+<td>OpenMV H7 Case, light-pipe.</td>
+<td><a href="./models/02_parts_custom/process_fff/omhv732_lightpipe_front.step">✓</a></td>
+<td><a href="./gcode/omvh732_lightpipe_0.2mm_PVB_MINI_5m.gcode">✓</a></td>
+<td>Prusa Mini+ (modified)</td>
+<td>0.40</td>
+<td>0.20</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>No supports</li>
+    <li>brim</li>
+    <li>powder-coated sheet w/ glue-stick</li>
+    <li>no-enclosure</li>
+</ul>
+</td>
+</tr>
 </tbody>
 </table>
 
