@@ -31,6 +31,10 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 
 ### Custom FFF Parts (CF)
 
+* Unless otherwise specified, all gcode was generated from step files using PrusaSlicer 2.6.0-alpha3+MacOS-x64
+* Unless otherwise specified, all gcode was generated for a Prusa Mini+
+* Unless otherwise specified, all gcode was generated for a 0.40 mm nozzle.
+
 <table>
 <thead>
 <th>Material</th>
@@ -39,23 +43,19 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <th>Description</th>
 <th>Step File</th>
 <th>GCode File</th>
-<th>Printer</th>
-<th>Nozzle</th>
 <th>Layer Height</th>
 <th>Printing Notes</th>
 </thead>
 <tbody valign="top">
 <tr>
-<td rowspan="9" bgcolor="#880000">RM0546</td>
+<td rowspan="9">RM0546</td>
 <td>1</td>
 <td>CF0531</td>
 <td>Dragon Beard dust guard: front plate</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_front.step">✓</a></td>
 <td rowspan="4"><a href="./gcode/dragon_beard_dustcover_0.15mm_PETG_MINI_1h24m.gcode">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
-<td>
+<td rowspan="9">0.15</td>
+<td rowspan="8">
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
@@ -69,51 +69,18 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>CF0532</td>
 <td>Dragon Beard dust guard: side plate, port</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_port.step">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
 </tr>
 <tr>
 <td>1</td>
 <td>CF0533</td>
 <td>Dragon Beard dust guard: rear plate</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_rear.step">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
 </tr>
 <tr>
 <td>1</td>
 <td>CF0534</td>
 <td>Dragon Beard dust guard: side plate, starboard</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_starboard.step">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
 </tr>
 </tr>
 <tr>
@@ -122,34 +89,25 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>Ethernet Cable Guide, top</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_neck_ethernet_guide_top.step">✓</a></td>
 <td rowspan="2"><a href="./gcode/Ethernet_guide_0.15mm_PETG_MINI_59m.gcode">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
 </tr>
 <tr>
 <td>1</td>
 <td>CF0536</td>
 <td>Ethernet Cable Guide, bottom</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_neck_ethernet_guide_bottom.step">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CF0538</td>
+<td>Axial Squash Plate</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_eye_squashplate_axial.step">✓</a></td>
+<td rowspan="2"><a href="./gcode/squash_plates_0.15mm_PETG_MINI_27m.gcode">✓</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>CF0539</td>
+<td>Distal Squash Plate</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_eye_squashplate.step">✓</a></td>
 </tr>
 <tr>
 <td>2</td>
@@ -157,9 +115,6 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>OpenMV H7 Case, Front</td>
 <td><a href="./models/02_parts_custom/process_fff/omvh732_front.step">✓</a></td>
 <td><a href="./gcode/omvh732_front_0.15mm_PETG_MINI_2h7m.gcode">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
 <td>
 <ul>
     <li>Infill: Gyroid 20%</li>
@@ -171,51 +126,14 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 </tr>
 <tr>
-<td>2</td>
-<td>CF0538</td>
-<td>Axial Squash Plate</td>
-<td><a href="./models/02_parts_custom/process_fff/dragon_eye_squashplate_axial.step">✓</a></td>
-<td rowspan="2"><a href="./gcode/omvh732_front_0.15mm_PETG_MINI_2h7m.gcode">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>4</td>
-<td>CF0539</td>
-<td>Distal Squash Plate</td>
-<td><a href="./models/02_parts_custom/process_fff/dragon_eye_squashplate.step">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.15</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td bgcolor="#ffffff" rowspan="4">RM0543</td>
+<td rowspan="4">RM0543</td>
 <td>2</td>
 <td>CF0540</td>
 <td>OpenMV H7 Case, soft-mount, rear.</td>
 <td><a href="./models/02_parts_custom/process_fff/omvh732_softmount_rear.step">✓</a></td>
 <td rowspan="4"><a href="./gcode/omvh732_softparts_0.2mm_FLEX_MINI_34m.gcode">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.20</td>
-<td>
+<td rowspan="5">0.20</td>
+<td rowspan="5">
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
@@ -230,54 +148,18 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>CF0541</td>
 <td>OpenMV H7 Case, soft-mount, front-top.</td>
 <td><a href="./models/02_parts_custom/process_fff/omhv732_softmount_front_top.step">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.20</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>brim</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
 </tr>
 <tr>
 <td>2</td>
 <td>CF0542</td>
 <td>OpenMV H7 Case, soft-mount, front-bottom.</td>
 <td><a href="./models/02_parts_custom/process_fff/omhv732_softmount_front_bottom.step">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.20</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>brim</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
 </tr>
 <tr>
 <td>4</td>
 <td>CF0543</td>
 <td>OpenMV H7 Case, no-connector strain-relief.</td>
 <td><a href="./models/02_parts_custom/process_fff/openmv-h7-body-strain-relief.step">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.20</td>
-<td>
-<ul>
-    <li>Infill: Rectilinear 100%</li>
-    <li>No supports</li>
-    <li>brim</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
-</ul>
-</td>
 </tr>
 <tr>
 <td>RM0126</td>
@@ -286,23 +168,49 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>OpenMV H7 Case, light-pipe.</td>
 <td><a href="./models/02_parts_custom/process_fff/omhv732_lightpipe_front.step">✓</a></td>
 <td><a href="./gcode/omvh732_lightpipe_0.2mm_PVB_MINI_5m.gcode">✓</a></td>
-<td>Prusa Mini+ (modified)</td>
-<td>0.40</td>
-<td>0.20</td>
-<td>
+</tr>
+<tr>
+<td rowspan="4">RM0054</td>
+<td>1</td>
+<td>CF0545</td>
+<td>Dragon Beard boot: design variant 1</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_beard_boot_d1.step">✓</a></td>
+<td><a href="./gcode/boot_d1_0.15mm_PC_MINI_39m.gcode">✓</a></td>
+<td rowspan="4">0.15</td>
+<td rowspan="4">
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
-    <li>brim</li>
-    <li>powder-coated sheet w/ glue-stick</li>
-    <li>no-enclosure</li>
+    <li>powder-coated sheet</li>
+    <li>enclosure, 32˚</li>
+    <li>extrusion mult. .97</li>
+    <li>nozzle temp: 290˚</li>
 </ul>
 </td>
 </tr>
+<tr>
+<td>1</td>
+<td>CF0546</td>
+<td>Dragon Beard boot: design variant_2</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_beard_boot_d2.step">✓</a></td>
+<td><a href="./gcode/boot_d2_0.15mm_PC_MINI_39m.gcode">✓</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>CF0547</td>
+<td>Dragon Beard hanger</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_beard_hanger.step">✓</a></td>
+<td><a href="./gcode/hanger_0.15mm_PC_MINI_2h8m.gcode">✓</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>CF0548</td>
+<td>Dragon Beard neck</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_neck_25mm.step">✓</a></td>
+<td><a href="./gcode/neck_25mm_0.15mm_PC_MINI_2h9m.gcode">✓</a></td>
+</tr>
 </tbody>
 </table>
-
-_Unless otherwise specified, all gcode was generated from step files using PrusaSlicer 2.6.0-alpha3+MacOS-x64_
 
 ### Mechanical Parts (MC)
 
