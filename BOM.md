@@ -37,7 +37,10 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 
 <table>
 <thead>
-<th>Material</th>
+<th>
+    <strong>Material ID</strong><br/>
+    &gt;&nbsp;Filament Profile
+</th>
 <th>Count</th>
 <th>Part Number</th>
 <th>Description</th>
@@ -48,7 +51,10 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </thead>
 <tbody valign="top">
 <tr>
-<td rowspan="9">RM0546</td>
+<td rowspan="9">
+    <strong>RM0546</strong><br/>
+    &gt;&nbsp;Generic PETG
+</td>
 <td>1</td>
 <td>CF0531</td>
 <td>Dragon Beard dust guard: front plate</td>
@@ -126,7 +132,10 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 </tr>
 <tr>
-<td rowspan="4">RM0543</td>
+<td rowspan="4">
+    <strong>RM0543</strong><br/>
+    &gt;&nbsp;Filatech FilaFlex40
+</td>
 <td>2</td>
 <td>CF0540</td>
 <td>OpenMV H7 Case, soft-mount, rear.</td>
@@ -162,7 +171,10 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td><a href="./models/02_parts_custom/process_fff/openmv-h7-body-strain-relief.step">✓</a></td>
 </tr>
 <tr>
-<td>RM0126</td>
+<td>
+    <strong>RM0126</strong><br/>
+    &gt; Prusament PVB
+</td>
 <td>2</td>
 <td>CF0544</td>
 <td>OpenMV H7 Case, light-pipe.</td>
@@ -170,21 +182,26 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td><a href="./gcode/omvh732_lightpipe_0.2mm_PVB_MINI_5m.gcode">✓</a></td>
 </tr>
 <tr>
-<td rowspan="4">RM0054</td>
+<td rowspan="5">
+    <strong>RM0054</strong><br/>
+    &gt;&nbsp;Prusament&nbsp;PC&nbsp;Blend&nbsp;Carbon&nbsp;Fiber&nbsp;+
+    <ul>
+    <li>extrusion mult. .97</li>
+    <li>nozzle temp: 290˚ (all layers)</li>
+    <li>enclosure, 32˚</li>
+    </ul>
+</td>
 <td>1</td>
 <td>CF0545</td>
 <td>Dragon Beard boot: design variant 1</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_boot_d1.step">✓</a></td>
 <td><a href="./gcode/boot_d1_0.15mm_PC_MINI_39m.gcode">✓</a></td>
-<td rowspan="4">0.15</td>
+<td rowspan="5">0.15</td>
 <td rowspan="4">
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
     <li>powder-coated sheet</li>
-    <li>enclosure, 32˚</li>
-    <li>extrusion mult. .97</li>
-    <li>nozzle temp: 290˚</li>
 </ul>
 </td>
 </tr>
@@ -208,6 +225,22 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>Dragon Beard neck</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_neck_25mm.step">✓</a></td>
 <td><a href="./gcode/neck_25mm_0.15mm_PC_MINI_2h9m.gcode">✓</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>CF0549</td>
+<td>Dragon Nose</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_nose.step">✓</a></td>
+<td><a href="./gcode/nose_0.15mm_PC_MINI_1h9m.gcode">✓</a></td>
+<td>
+<ul>
+    <li>Infill: Honeycomb 30%</li>
+    <li>4 perimeters (min)</li>
+    <li>Bottom layer: Archimedean Chords</li>
+    <li>Custom supports</li>
+    <li>powder-coated sheet</li>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
