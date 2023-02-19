@@ -51,7 +51,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </thead>
 <tbody valign="top">
 <tr>
-<td rowspan="9">
+<td rowspan="10">
     <strong>RM0546</strong><br/>
     &gt;&nbsp;Generic PETG
 </td>
@@ -60,7 +60,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>Dragon Beard dust guard: front plate</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_front.step">✓</a></td>
 <td rowspan="4"><a href="./gcode/dragon_beard_dustcover_0.15mm_PETG_MINI_1h24m.gcode">✓</a></td>
-<td rowspan="9">0.15</td>
+<td rowspan="10">0.15</td>
 <td rowspan="8">
 <ul>
     <li>Infill: Rectilinear 100%</li>
@@ -132,6 +132,22 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 </tr>
 <tr>
+<td>2</td>
+<td>CF0562</td>
+<td>OpenMV H7 Case, USB Retainer</td>
+<td></td>
+<td><a href="./gcode/omvh732_usb_retainer_0.15mm_PETG_MINI_39m.gcode">✓</a></td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>Custom Support</li>
+    <li>Support Style: Snug</li>
+    <li>powder-coated sheet w/ glue-stick</li>
+    <li>no-enclosure</li>
+</ul>
+</td>
+</tr>
+<tr>
 <td rowspan="4">
     <strong>RM0543</strong><br/>
     &gt;&nbsp;Filatech FilaFlex40
@@ -182,7 +198,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td><a href="./gcode/omvh732_lightpipe_0.2mm_PVB_MINI_5m.gcode">✓</a></td>
 </tr>
 <tr>
-<td rowspan="5">
+<td rowspan="8">
     <strong>RM0054</strong><br/>
     &gt;&nbsp;Prusament&nbsp;PC&nbsp;Blend&nbsp;Carbon&nbsp;Fiber&nbsp;+
     <ul>
@@ -196,7 +212,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>Dragon Beard boot: design variant 1</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_boot_d1.step">✓</a></td>
 <td><a href="./gcode/boot_d1_0.15mm_PC_MINI_39m.gcode">✓</a></td>
-<td rowspan="5">0.15</td>
+<td rowspan="8">0.15</td>
 <td rowspan="4">
 <ul>
     <li>Infill: Rectilinear 100%</li>
@@ -232,12 +248,52 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>Dragon Nose</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_nose.step">✓</a></td>
 <td><a href="./gcode/nose_0.15mm_PC_MINI_1h9m.gcode">✓</a></td>
-<td>
+<td rowspan="2">
 <ul>
     <li>Infill: Honeycomb 30%</li>
     <li>4 perimeters (min)</li>
     <li>Bottom layer: Archimedean Chords</li>
     <li>Custom supports</li>
+    <li>Support Style: Snug</li>
+    <li>powder-coated sheet</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td>CF0550</td>
+<td>OpenMV H7 Case: Rear</td>
+<td><a href="./models/02_parts_custom/process_fff/omvh732_rear.step">✓</a></td>
+<td><a href="./gcode/omvh732_rear_0.15mm_PC_MINI_1h43m.gcode">✓</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>CF0552</td>
+<td>Dragon Ear: Port-side</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_ear_port.step">✓</a></td>
+<td><a href="./gcode/dragon_ear_port_0.15mm_PC_MINI_2h5m.gcode">✓</a></td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>8 perimeters (min)</li>
+    <li>Custom supports</li>
+    <li>Support Style: Snug, 2mm xy separation</li>
+    <li>powder-coated sheet</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>1</td>
+<td>CF0551</td>
+<td>Dragon Ear: Starboard-side</td>
+<td><a href="./models/02_parts_custom/process_fff/dragon_ear_starboard.step">✓</a></td>
+<td><a href="./gcode/dragon_ear_starboard_0.15mm_PC_MINI_1h54m.gcode">✓</a></td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>8 perimeters (min)</li>
+    <li>Custom supports</li>
+    <li>Support Style: Snug, 2mm xy separation</li>
     <li>powder-coated sheet</li>
 </ul>
 </td>
