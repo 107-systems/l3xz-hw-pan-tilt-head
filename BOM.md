@@ -198,7 +198,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td><a href="./gcode/omvh732_lightpipe_0.2mm_PVB_MINI_5m.gcode">✓</a></td>
 </tr>
 <tr>
-<td rowspan="8">
+<td rowspan="9">
     <strong>RM0054</strong><br/>
     &gt;&nbsp;Prusament&nbsp;PC&nbsp;Blend&nbsp;Carbon&nbsp;Fiber&nbsp;+
     <ul>
@@ -294,6 +294,20 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
     <li>8 perimeters (min)</li>
     <li>Custom supports</li>
     <li>Support Style: Snug, 2mm xy separation</li>
+    <li>powder-coated sheet</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>1</td>
+<td>CF0551</td>
+<td>Dragon Ear: Starboard-side</td>
+<td><a href="./models/00_marks_and_decals/hexapod makers mark.step">✓</a></td>
+<td><a href="./gcode/hexapod_logo_0.1mm_PC_MINI_3m.gcode">✓</a></td>
+<td>0.10</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
     <li>powder-coated sheet</li>
 </ul>
 </td>
