@@ -339,3 +339,4 @@ _<sup>†</sup>Unless otherwise specified, all mechanical part numbers are McMas
 |-----|-------------|-----------|-------|-----------|-------------|-----------------------|
 | 1   | AS1332      | [<img src="./media/AS1332.png" height=50px/>](./media/AS1332.png) | | <ul><li>CF0531</li><li>CF0532</li><li>CF0533</li><li>CF0534</li></ul> | Dragon Beard Dust Cover | (TODO) | 
 | 1   | AS1333      | [<img src="./media/AS1333.png" height=50px/>](./media/AS1333.png) | [✓](./media/AS1333.mp4) | <ul><li>CF0535</li><li>CF0536</li></ul> | Ethernet cable guide | (TODO) |
+| 1   | AS1334      | [<img src="./media/AS1334.png" height=50px/>](./media/AS1334.png) | [✓](./media/AS1334.mp4) | (TODO)| Dragon Face| (TODO) |
