@@ -64,6 +64,9 @@ class LazyDocument:
         self._document = self._ctx.app.documents.open(self._file)
         self._document.activate()
 
+    def update(self):
+        self._ctx.app.executeTextCommand(u'Commands.Start PLM360DeepRefreshDocumentCommand')
+
     def close(self):
         if self._document is None:
             return
@@ -127,6 +130,7 @@ def export_file(ctx: Ctx, format: Format, file, doc: LazyDocument) -> Counter:
         return Counter(skipped=1)
 
     doc.open()
+    doc.update()
 
     # I'm just taking this from here https://github.com/tapnair/apper/blob/master/apper/Fusion360Utilities.py
     # is there a nicer way to do this??

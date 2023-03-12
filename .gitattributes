@@ -12,3 +12,4 @@ models/03_assemblies/00_main.step filter=lfs diff=lfs merge=lfs -text
 models/03_assemblies/dragon_nose.step filter=lfs diff=lfs merge=lfs -text
 media/AS1333.mp4 filter=lfs diff=lfs merge=lfs -text
 media/AS1334.mp4 filter=lfs diff=lfs merge=lfs -text
+media/AS1335.mp4 filter=lfs diff=lfs merge=lfs -text

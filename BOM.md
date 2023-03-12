@@ -148,7 +148,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 </tr>
 <tr>
-<td rowspan="4">
+<td rowspan="6">
     <strong>RM0543</strong><br/>
     &gt;&nbsp;Filatech FilaFlex40
 </td>
@@ -157,8 +157,8 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>OpenMV H7 Case, soft-mount, rear.</td>
 <td><a href="./models/02_parts_custom/process_fff/omvh732_softmount_rear.step">✓</a></td>
 <td rowspan="4"><a href="./gcode/omvh732_softparts_0.2mm_FLEX_MINI_34m.gcode">✓</a></td>
-<td rowspan="5">0.20</td>
-<td rowspan="5">
+<td rowspan="7">0.20</td>
+<td rowspan="7">
 <ul>
     <li>Infill: Rectilinear 100%</li>
     <li>No supports</li>
@@ -185,6 +185,20 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <td>CF0543</td>
 <td>OpenMV H7 Case, no-connector strain-relief.</td>
 <td><a href="./models/02_parts_custom/process_fff/openmv-h7-body-strain-relief.step">✓</a></td>
+</tr>
+<tr>
+<td>1</td>
+<td>CF0580</td>
+<td>OpenMV H7 Case, AAOTOKK USB Micro Retainer Gasket.</td>
+<td><a href="">ERROR</a></td>
+<td><a href="./gcode/omvh732_usb_retainer_gasket_0.15mm_FLEX_MINI_20m.gcode">✓</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>CF0581</td>
+<td>Dragon Ear ISO mount spacers</td>
+<td><a href="">ERROR</a></td>
+<td><a href="./gcode/iso_spacer_0.2mm_FLEX_MINI_7m.gcode">✓</a></td>
 </tr>
 <tr>
 <td>
@@ -340,3 +354,4 @@ _<sup>†</sup>Unless otherwise specified, all mechanical part numbers are McMas
 | 1   | AS1332      | [<img src="./media/AS1332.png" height=50px/>](./media/AS1332.png) | | <ul><li>CF0531</li><li>CF0532</li><li>CF0533</li><li>CF0534</li></ul> | Dragon Beard Dust Cover | (TODO) | 
 | 1   | AS1333      | [<img src="./media/AS1333.png" height=50px/>](./media/AS1333.png) | [✓](./media/AS1333.mp4) | <ul><li>CF0535</li><li>CF0536</li></ul> | Ethernet cable guide | (TODO) |
 | 1   | AS1334      | [<img src="./media/AS1334.png" height=50px/>](./media/AS1334.png) | [✓](./media/AS1334.mp4) | (TODO)| Dragon Face| (TODO) |
+| 1   | AS1335       | [<img src="./media/AS1335.png" height=50px/>](./media/AS1335.png) | [✓](./media/AS1335.mp4) | (TODO)| Dragon Throat| (TODO) |
