@@ -28,6 +28,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 |      RM0672 | 3M           | DP8005               | 3M™ Scotch-Weld™ Epoxy Adhesive DP8005 | [✓](./datasheets/tds/DP8005.pdf) | [✓](./datasheets/sds/DP8005.pdf) | [amazon](https://www.amazon.com/gp/product/B007IATIK8) |
 |      RM0879 | (generic)    | B07XFMPQR1           | 304 Stainless Steel Woven Wire 120 Mesh Fine Screen | | | [amazon](https://www.amazon.com/gp/product/B07XFMPQR1) |
 |      RM0889 | 3M           | AC79                 | 3M Scotch-Weld Instant Adhesive Primer | [✓](./datasheets/sds/AC79.pdf) | [✓](./datasheets/tds/AC79.pdf) | [amazon](https://www.amazon.com/gp/product/B071W9H889) |
+|      RM0890 | Loctite      | Threadlocker Blue 242 | Removable thread locker to prevent self-loosening | [✓](./datasheets/sds/loctite_blue.pdf) | [✓](./datasheets/tds/loctite_blue.pdf) | [loctite](https://www.loctiteproducts.com/en/products/specialty-products/specialty/loctite_threadlockerblue242.html) |
 
 ### Custom FFF Parts (CF)
 
