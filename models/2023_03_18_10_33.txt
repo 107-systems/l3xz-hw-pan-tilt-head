@@ -1,0 +1,781 @@
+Visiting folder 00_marks_and_decals
+Visiting file 32 makers mark v1 . f3d
+Opening `32 makers mark`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/00_marks_and_decals/32 makers mark.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/00_marks_and_decals/32 makers mark.step
+Closing 32 makers mark
+Visiting file hexapod makers mark v5 . f3d
+Opening `hexapod makers mark`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/00_marks_and_decals/hexapod makers mark.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/00_marks_and_decals/hexapod makers mark.step
+Closing hexapod makers mark
+Visiting file robotis_decal.png v1 . art
+file robotis_decal.png has extension art which is not currently handled, skipping
+Visiting folder 01_parts_stock
+Got exception visiting file
+Traceback (most recent call last):
+  File "/Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/f3dexporter/f3dexporter.py", line 190, in visit_folder
+    counter += visit_file(new_ctx, file, is_dry_run, progress)
+  File "/Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/f3dexporter/f3dexporter.py", line 155, in visit_file
+    log(f'Visiting file {file.name} v{file.versionNumber} . {file.fileExtension}')
+  File "/Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/f3dexporter/f3dexporter.py", line 24, in log
+    print(*args, file=log_fh)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xb5' in position 14: ordinal not in range(128)
+
+Visiting file AAOTOKK USB A Micro 90 degree v3 . f3d
+Opening `AAOTOKK USB A Micro 90 degree`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/AAOTOKK USB A Micro 90 degree.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/AAOTOKK USB A Micro 90 degree.step
+Closing AAOTOKK USB A Micro 90 degree
+Visiting file Adafruit Pi Zero Bonnet v3 . f3d
+Opening `Adafruit Pi Zero Bonnet`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/Adafruit Pi Zero Bonnet.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/Adafruit Pi Zero Bonnet.step
+Closing Adafruit Pi Zero Bonnet
+Visiting file ethernet_assem(Step_ap214) v2 . f3d
+Opening `ethernet_assem(Step_ap214)`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/ethernet_assem(Step_ap214).f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/ethernet_assem(Step_ap214).step
+Closing ethernet_assem(Step_ap214)
+Visiting file FR07-B101 v2 . f3d
+Opening `FR07-B101`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/FR07-B101.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/FR07-B101.step
+Closing FR07-B101
+Visiting file FR07-H101 v4 . f3d
+Opening `FR07-H101`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/FR07-H101.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/FR07-H101.step
+Closing FR07-H101
+Visiting file FR07-H101-w-fasteners v7 . f3d
+Opening `FR07-H101-w-fasteners`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/FR07-H101-w-fasteners.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/FR07-H101-w-fasteners.step
+Closing FR07-H101-w-fasteners
+Visiting file FR07-S101-w-fasteners v6 . f3d
+Opening `FR07-S101-w-fasteners`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/FR07-S101-w-fasteners.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/FR07-S101-w-fasteners.step
+Closing FR07-S101-w-fasteners
+Visiting file Gigabit Ethernet Port, RPi4ModelB v2 . f3d
+Opening `Gigabit Ethernet Port, RPi4ModelB`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/Gigabit Ethernet Port, RPi4ModelB.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/Gigabit Ethernet Port, RPi4ModelB.step
+Closing Gigabit Ethernet Port, RPi4ModelB
+Visiting file heatsink 15mm v1 . f3d
+Opening `heatsink 15mm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/heatsink 15mm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/heatsink 15mm.step
+Closing heatsink 15mm
+Visiting file HN07-i101 v2 . f3d
+Opening `HN07-i101`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/HN07-i101.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/HN07-i101.step
+Closing HN07-i101
+Visiting file HN07-N101 v2 . f3d
+Opening `HN07-N101`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/HN07-N101.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/HN07-N101.step
+Closing HN07-N101
+Visiting file Lepton 3.5, Socket 10502821001, 57 Deg HFOV 9 Hz Export v5 . f3d
+Opening `Lepton 3.5, Socket 10502821001, 57 Deg HFOV 9 Hz Export`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/Lepton 3.5, Socket 10502821001, 57 Deg HFOV 9 Hz Export.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/Lepton 3.5, Socket 10502821001, 57 Deg HFOV 9 Hz Export.step
+Closing Lepton 3.5, Socket 10502821001, 57 Deg HFOV 9 Hz Export
+Visiting file MF106ZZ v2 . f3d
+Opening `MF106ZZ`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/MF106ZZ.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/MF106ZZ.step
+Closing MF106ZZ
+Visiting file MX-28AT_AR v9 . f3d
+Opening `MX-28AT_AR`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/MX-28AT_AR.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/MX-28AT_AR.step
+Closing MX-28AT_AR
+Visiting file MX-28AT_AR DUMMY v18 . f3d
+Opening `MX-28AT_AR DUMMY`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/MX-28AT_AR DUMMY.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/MX-28AT_AR DUMMY.step
+Closing MX-28AT_AR DUMMY
+Visiting file openmv4_h7 v14 . f3d
+Opening `openmv4_h7`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/openmv4_h7.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/openmv4_h7.step
+Closing openmv4_h7
+Visiting file Raspberry Pi Zero 2 W v4 . f3d
+Opening `Raspberry Pi Zero 2 W`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/Raspberry Pi Zero 2 W.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/Raspberry Pi Zero 2 W.step
+Closing Raspberry Pi Zero 2 W
+Visiting file RX28-CAP v2 . f3d
+Opening `RX28-CAP`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/RX28-CAP.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/RX28-CAP.step
+Closing RX28-CAP
+Visiting file U2D3PHB v1 . f3d
+Opening `U2D3PHB`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/U2D3PHB.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/U2D3PHB.step
+Closing U2D3PHB
+Visiting file USB-A v2 . f3d
+Opening `USB-A`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/USB-A.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/USB-A.step
+Closing USB-A
+Visiting file usb 3 rt angle type A v2 . f3d
+Opening `usb 3 rt angle type A`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/usb 3 rt angle type A.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/usb 3 rt angle type A.step
+Closing usb 3 rt angle type A
+Got exception visiting file
+Traceback (most recent call last):
+  File "/Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/f3dexporter/f3dexporter.py", line 190, in visit_folder
+    counter += visit_file(new_ctx, file, is_dry_run, progress)
+  File "/Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/f3dexporter/f3dexporter.py", line 155, in visit_file
+    log(f'Visiting file {file.name} v{file.versionNumber} . {file.fileExtension}')
+  File "/Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/f3dexporter/f3dexporter.py", line 24, in log
+    print(*args, file=log_fh)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xfc' in position 37: ordinal not in range(128)
+
+Visiting file ZIP TIE v3 . f3d
+Opening `ZIP TIE`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/ZIP TIE.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/ZIP TIE.step
+Closing ZIP TIE
+Visiting folder fasteners
+Visiting file M1 Press-fit nut v2 . f3d
+Opening `M1 Press-fit nut`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M1 Press-fit nut.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M1 Press-fit nut.step
+Closing M1 Press-fit nut
+Visiting file M1 washer v1 . f3d
+Opening `M1 washer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M1 washer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M1 washer.step
+Closing M1 washer
+Visiting file M1 x 10 v1 . f3d
+Opening `M1 x 10`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M1 x 10.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M1 x 10.step
+Closing M1 x 10
+Visiting file M2.5 hex v1 . f3d
+Opening `M2.5 hex`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex.step
+Closing M2.5 hex
+Visiting file M2.5 hex standoff 3mm bolt v1 . f3d
+Opening `M2.5 hex standoff 3mm bolt`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 3mm bolt.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 3mm bolt.step
+Closing M2.5 hex standoff 3mm bolt
+Visiting file M2.5 hex standoff 5 mf v1 . f3d
+Opening `M2.5 hex standoff 5 mf`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 5 mf.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 5 mf.step
+Closing M2.5 hex standoff 5 mf
+Visiting file M2.5 hex standoff 8 fm v1 . f3d
+Opening `M2.5 hex standoff 8 fm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 8 fm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 8 fm.step
+Closing M2.5 hex standoff 8 fm
+Visiting file M2.5 hex standoff 9 fm v2 . f3d
+Opening `M2.5 hex standoff 9 fm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 9 fm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 9 fm.step
+Closing M2.5 hex standoff 9 fm
+Visiting file M2.5 hex standoff 10 ff v1 . f3d
+Opening `M2.5 hex standoff 10 ff`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 10 ff.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 10 ff.step
+Closing M2.5 hex standoff 10 ff
+Visiting file M2.5 hex standoff 11 fm v3 . f3d
+Opening `M2.5 hex standoff 11 fm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 11 fm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 11 fm.step
+Closing M2.5 hex standoff 11 fm
+Visiting file M2.5 hex standoff 12 fm v1 . f3d
+Opening `M2.5 hex standoff 12 fm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 12 fm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 12 fm.step
+Closing M2.5 hex standoff 12 fm
+Visiting file M2.5 hex standoff 16 ff v1 . f3d
+Opening `M2.5 hex standoff 16 ff`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 16 ff.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 16 ff.step
+Closing M2.5 hex standoff 16 ff
+Visiting file M2.5 hex standoff 19 ff v1 . f3d
+Opening `M2.5 hex standoff 19 ff`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 19 ff.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 hex standoff 19 ff.step
+Closing M2.5 hex standoff 19 ff
+Visiting file M2.5 locknut v3 . f3d
+Opening `M2.5 locknut`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 locknut.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 locknut.step
+Closing M2.5 locknut
+Visiting file M2.5 nut v3 . f3d
+Opening `M2.5 nut`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 nut.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 nut.step
+Closing M2.5 nut
+Visiting file M2.5 washer v3 . f3d
+Opening `M2.5 washer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 washer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 washer.step
+Closing M2.5 washer
+Visiting file M2.5 x 2 spacer v1 . f3d
+Opening `M2.5 x 2 spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 2 spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 2 spacer.step
+Closing M2.5 x 2 spacer
+Visiting file M2.5 x 3 v1 . f3d
+Opening `M2.5 x 3`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 3.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 3.step
+Closing M2.5 x 3
+Visiting file M2.5 x 3 nylon spacer v1 . f3d
+Opening `M2.5 x 3 nylon spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 3 nylon spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 3 nylon spacer.step
+Closing M2.5 x 3 nylon spacer
+Visiting file M2.5 x 3 spacer v1 . f3d
+Opening `M2.5 x 3 spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 3 spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 3 spacer.step
+Closing M2.5 x 3 spacer
+Visiting file M2.5 x 4 v1 . f3d
+Opening `M2.5 x 4`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 4.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 4.step
+Closing M2.5 x 4
+Visiting file M2.5 x 4 button v1 . f3d
+Opening `M2.5 x 4 button`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 4 button.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 4 button.step
+Closing M2.5 x 4 button
+Visiting file M2.5 x 4 heat set insert v1 . f3d
+Opening `M2.5 x 4 heat set insert`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 4 heat set insert.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 4 heat set insert.step
+Closing M2.5 x 4 heat set insert
+Visiting file M2.5 x 5.56 heat set insert v1 . f3d
+Opening `M2.5 x 5.56 heat set insert`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 5.56 heat set insert.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 5.56 heat set insert.step
+Closing M2.5 x 5.56 heat set insert
+Visiting file M2.5 x 5 ff v1 . f3d
+Opening `M2.5 x 5 ff`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 5 ff.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 5 ff.step
+Closing M2.5 x 5 ff
+Visiting file M2.5 x 5 nylon spacer v1 . f3d
+Opening `M2.5 x 5 nylon spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 5 nylon spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 5 nylon spacer.step
+Closing M2.5 x 5 nylon spacer
+Visiting file M2.5 x 5 phillips screw v2 . f3d
+Opening `M2.5 x 5 phillips screw`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 5 phillips screw.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 5 phillips screw.step
+Closing M2.5 x 5 phillips screw
+Visiting file M2.5 x 6 v3 . f3d
+Opening `M2.5 x 6`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 6.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 6.step
+Closing M2.5 x 6
+Visiting file M2.5 x 7.5 heat set insert v1 . f3d
+Opening `M2.5 x 7.5 heat set insert`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 7.5 heat set insert.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 7.5 heat set insert.step
+Closing M2.5 x 7.5 heat set insert
+Visiting file M2.5 x 8 v4 . f3d
+Opening `M2.5 x 8`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 8.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 8.step
+Closing M2.5 x 8
+Visiting file M2.5 x 8 button v1 . f3d
+Opening `M2.5 x 8 button`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 8 button.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 8 button.step
+Closing M2.5 x 8 button
+Visiting file M2.5 x 10 button v1 . f3d
+Opening `M2.5 x 10 button`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 10 button.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 10 button.step
+Closing M2.5 x 10 button
+Visiting file M2.5 x 12 v1 . f3d
+Opening `M2.5 x 12`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 12.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 12.step
+Closing M2.5 x 12
+Visiting file M2.5 x 16 v1 . f3d
+Opening `M2.5 x 16`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 16.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 16.step
+Closing M2.5 x 16
+Visiting file M2.5 x 20 v1 . f3d
+Opening `M2.5 x 20`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 20.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 20.step
+Closing M2.5 x 20
+Visiting file M2.5 x 25 v1 . f3d
+Opening `M2.5 x 25`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 25.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 25.step
+Closing M2.5 x 25
+Visiting file M2.5 x 30 v2 . f3d
+Opening `M2.5 x 30`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 30.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 30.step
+Closing M2.5 x 30
+Visiting file M2.5 x 35 v1 . f3d
+Opening `M2.5 x 35`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 35.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 35.step
+Closing M2.5 x 35
+Visiting file M2.5 x 40 v1 . f3d
+Opening `M2.5 x 40`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 40.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2.5 x 40.step
+Closing M2.5 x 40
+Visiting file M2 locknut v1 . f3d
+Opening `M2 locknut`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 locknut.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 locknut.step
+Closing M2 locknut
+Visiting file M2 nut v1 . f3d
+Opening `M2 nut`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 nut.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 nut.step
+Closing M2 nut
+Visiting file M2 washer v1 . f3d
+Opening `M2 washer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 washer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 washer.step
+Closing M2 washer
+Visiting file M2 x 3 v4 . f3d
+Opening `M2 x 3`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 3.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 3.step
+Closing M2 x 3
+Visiting file M2 x 3 JIS v1 . f3d
+Opening `M2 x 3 JIS`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 3 JIS.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 3 JIS.step
+Closing M2 x 3 JIS
+Visiting file M2 x 6 v1 . f3d
+Opening `M2 x 6`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 6.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 6.step
+Closing M2 x 6
+Visiting file M2 x 6 button v1 . f3d
+Opening `M2 x 6 button`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 6 button.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 6 button.step
+Closing M2 x 6 button
+Visiting file M2 x 8 v1 . f3d
+Opening `M2 x 8`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 8.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 8.step
+Closing M2 x 8
+Visiting file M2 x 8 button v1 . f3d
+Opening `M2 x 8 button`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 8 button.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 8 button.step
+Closing M2 x 8 button
+Visiting file M2 x 10 v1 . f3d
+Opening `M2 x 10`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 10.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 10.step
+Closing M2 x 10
+Visiting file M2 x 14 v1 . f3d
+Opening `M2 x 14`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 14.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 14.step
+Closing M2 x 14
+Visiting file M2 x 16 v1 . f3d
+Opening `M2 x 16`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 16.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M2 x 16.step
+Closing M2 x 16
+Visiting file M3 locknut v1 . f3d
+Opening `M3 locknut`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 locknut.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 locknut.step
+Closing M3 locknut
+Visiting file M3 nut v1 . f3d
+Opening `M3 nut`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 nut.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 nut.step
+Closing M3 nut
+Visiting file M3 silicon washer v2 . f3d
+Opening `M3 silicon washer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 silicon washer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 silicon washer.step
+Closing M3 silicon washer
+Visiting file M3 thumbnut v1 . f3d
+Opening `M3 thumbnut`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 thumbnut.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 thumbnut.step
+Closing M3 thumbnut
+Visiting file M3 washer v2 . f3d
+Opening `M3 washer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 washer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 washer.step
+Closing M3 washer
+Visiting file M3 x 30 v1 . f3d
+Opening `M3 x 30`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 x 30.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 x 30.step
+Closing M3 x 30
+Visiting file M3 x 60 v1 . f3d
+Opening `M3 x 60`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 x 60.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 x 60.step
+Closing M3 x 60
+Visiting file M3 x 65 v1 . f3d
+Opening `M3 x 65`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 x 65.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M3 x 65.step
+Closing M3 x 65
+Visiting file M4 hex standoff 14 fm v1 . f3d
+Opening `M4 hex standoff 14 fm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 hex standoff 14 fm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 hex standoff 14 fm.step
+Closing M4 hex standoff 14 fm
+Visiting file M4 hex standoff 20 mf v1 . f3d
+Opening `M4 hex standoff 20 mf`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 hex standoff 20 mf.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 hex standoff 20 mf.step
+Closing M4 hex standoff 20 mf
+Visiting file M4 hex standoff 30 fm v1 . f3d
+Opening `M4 hex standoff 30 fm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 hex standoff 30 fm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 hex standoff 30 fm.step
+Closing M4 hex standoff 30 fm
+Visiting file M4 hex standoff 50 ff v1 . f3d
+Opening `M4 hex standoff 50 ff`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 hex standoff 50 ff.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 hex standoff 50 ff.step
+Closing M4 hex standoff 50 ff
+Visiting file M4 shim .2 v1 . f3d
+Opening `M4 shim .2`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 shim .2.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 shim .2.step
+Closing M4 shim .2
+Visiting file M4 spacer 1 v2 . f3d
+Opening `M4 spacer 1`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 spacer 1.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 spacer 1.step
+Closing M4 spacer 1
+Visiting file M4 Washer v1 . f3d
+Opening `M4 Washer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 Washer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 Washer.step
+Closing M4 Washer
+Visiting file M4 x 8 v1 . f3d
+Opening `M4 x 8`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 x 8.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M4 x 8.step
+Closing M4 x 8
+Visiting file M8 x 20 spacer v2 . f3d
+Opening `M8 x 20 spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M8 x 20 spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M8 x 20 spacer.step
+Closing M8 x 20 spacer
+Visiting file M8 x 25 spacer v2 . f3d
+Opening `M8 x 25 spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M8 x 25 spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M8 x 25 spacer.step
+Closing M8 x 25 spacer
+Visiting file M8 x 50 spacer v2 . f3d
+Opening `M8 x 50 spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M8 x 50 spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/01_parts_stock/fasteners/M8 x 50 spacer.step
+Closing M8 x 50 spacer
+Visiting folder 02_parts_custom
+Visiting folder process_adhoc
+Visiting file iso_mount_A v9 . f3d
+Opening `iso_mount_A`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/iso_mount_A.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/iso_mount_A.step
+Closing iso_mount_A
+Visiting file iso_mount_B v2 . f3d
+Opening `iso_mount_B`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/iso_mount_B.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/iso_mount_B.step
+Closing iso_mount_B
+Visiting file iso_mount_B_1 v2 . f3d
+Opening `iso_mount_B_1`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/iso_mount_B_1.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/iso_mount_B_1.step
+Closing iso_mount_B_1
+Visiting file iso_mount_C v2 . f3d
+Opening `iso_mount_C`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/iso_mount_C.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/iso_mount_C.step
+Closing iso_mount_C
+Visiting file Iso_mount_D v5 . f3d
+Opening `Iso_mount_D`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/Iso_mount_D.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/Iso_mount_D.step
+Closing Iso_mount_D
+Visiting file omvh732_front_fod_filter v1 . f3d
+Opening `omvh732_front_fod_filter`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/omvh732_front_fod_filter.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_adhoc/omvh732_front_fod_filter.step
+Closing omvh732_front_fod_filter
+Visiting folder process_fff
+Visiting file dragon_beard_boot_d1 v2 . f3d
+Opening `dragon_beard_boot_d1`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_boot_d1.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_boot_d1.step
+Closing dragon_beard_boot_d1
+Visiting file dragon_beard_boot_d2 v2 . f3d
+Opening `dragon_beard_boot_d2`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_boot_d2.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_boot_d2.step
+Closing dragon_beard_boot_d2
+Visiting file dragon_beard_dust_cover_front v2 . f3d
+Opening `dragon_beard_dust_cover_front`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_dust_cover_front.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_dust_cover_front.step
+Closing dragon_beard_dust_cover_front
+Visiting file dragon_beard_dust_cover_port v2 . f3d
+Opening `dragon_beard_dust_cover_port`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_dust_cover_port.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_dust_cover_port.step
+Closing dragon_beard_dust_cover_port
+Visiting file dragon_beard_dust_cover_rear v3 . f3d
+Opening `dragon_beard_dust_cover_rear`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_dust_cover_rear.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_dust_cover_rear.step
+Closing dragon_beard_dust_cover_rear
+Visiting file dragon_beard_dust_cover_starboard v2 . f3d
+Opening `dragon_beard_dust_cover_starboard`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_dust_cover_starboard.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_dust_cover_starboard.step
+Closing dragon_beard_dust_cover_starboard
+Visiting file dragon_beard_hanger v4 . f3d
+Opening `dragon_beard_hanger`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_hanger.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_beard_hanger.step
+Closing dragon_beard_hanger
+Visiting file dragon_ear_iso_spacer v3 . f3d
+Opening `dragon_ear_iso_spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_ear_iso_spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_ear_iso_spacer.step
+Closing dragon_ear_iso_spacer
+Visiting file dragon_ear_port v32 . f3d
+Opening `dragon_ear_port`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_ear_port.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_ear_port.step
+Closing dragon_ear_port
+Visiting file dragon_ear_starboard v30 . f3d
+Opening `dragon_ear_starboard`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_ear_starboard.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_ear_starboard.step
+Closing dragon_ear_starboard
+Visiting file dragon_eye_squashplate v2 . f3d
+Opening `dragon_eye_squashplate`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_eye_squashplate.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_eye_squashplate.step
+Closing dragon_eye_squashplate
+Visiting file dragon_eye_squashplate_axial v3 . f3d
+Opening `dragon_eye_squashplate_axial`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_eye_squashplate_axial.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_eye_squashplate_axial.step
+Closing dragon_eye_squashplate_axial
+Visiting file dragon_neck_20mm v1 . f3d
+Opening `dragon_neck_20mm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_20mm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_20mm.step
+Closing dragon_neck_20mm
+Visiting file dragon_neck_25mm v2 . f3d
+Opening `dragon_neck_25mm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_25mm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_25mm.step
+Closing dragon_neck_25mm
+Visiting file dragon_neck_50mm v1 . f3d
+Opening `dragon_neck_50mm`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_50mm.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_50mm.step
+Closing dragon_neck_50mm
+Visiting file dragon_neck_ethernet_guide_bottom v4 . f3d
+Opening `dragon_neck_ethernet_guide_bottom`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_ethernet_guide_bottom.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_ethernet_guide_bottom.step
+Closing dragon_neck_ethernet_guide_bottom
+Visiting file dragon_neck_ethernet_guide_top v13 . f3d
+Opening `dragon_neck_ethernet_guide_top`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_ethernet_guide_top.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_neck_ethernet_guide_top.step
+Closing dragon_neck_ethernet_guide_top
+Visiting file dragon_nose v21 . f3d
+Opening `dragon_nose`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_nose.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/dragon_nose.step
+Closing dragon_nose
+Visiting file jig_dragon_beard_dust_cover_glueup v6 . f3d
+Opening `jig_dragon_beard_dust_cover_glueup`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_dragon_beard_dust_cover_glueup.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_dragon_beard_dust_cover_glueup.step
+Closing jig_dragon_beard_dust_cover_glueup
+Visiting file jig_iso_mount_drill_guide v10 . f3d
+Opening `jig_iso_mount_drill_guide`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_iso_mount_drill_guide.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_iso_mount_drill_guide.step
+Closing jig_iso_mount_drill_guide
+Visiting file jig_teststand_bumper v4 . f3d
+Opening `jig_teststand_bumper`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_teststand_bumper.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_teststand_bumper.step
+Closing jig_teststand_bumper
+Visiting file jig_teststand_dynamixel_bracket v2 . f3d
+Opening `jig_teststand_dynamixel_bracket`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_teststand_dynamixel_bracket.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_teststand_dynamixel_bracket.step
+Closing jig_teststand_dynamixel_bracket
+Visiting file jig_teststand_dynamixel_bracket_spacer v5 . f3d
+Opening `jig_teststand_dynamixel_bracket_spacer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_teststand_dynamixel_bracket_spacer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_teststand_dynamixel_bracket_spacer.step
+Closing jig_teststand_dynamixel_bracket_spacer
+Visiting file jig_teststand_post v4 . f3d
+Opening `jig_teststand_post`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_teststand_post.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/jig_teststand_post.step
+Closing jig_teststand_post
+Visiting file omhv732_lightpipe_front v3 . f3d
+Opening `omhv732_lightpipe_front`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omhv732_lightpipe_front.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omhv732_lightpipe_front.step
+Closing omhv732_lightpipe_front
+Visiting file omhv732_rear v29 . f3d
+Opening `omhv732_rear`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omhv732_rear.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omhv732_rear.step
+Closing omhv732_rear
+Visiting file omhv732_softmount_front_bottom v6 . f3d
+Opening `omhv732_softmount_front_bottom`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omhv732_softmount_front_bottom.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omhv732_softmount_front_bottom.step
+Closing omhv732_softmount_front_bottom
+Visiting file omhv732_softmount_front_top v6 . f3d
+Opening `omhv732_softmount_front_top`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omhv732_softmount_front_top.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omhv732_softmount_front_top.step
+Closing omhv732_softmount_front_top
+Visiting file omvh732_adapter v7 . f3d
+Opening `omvh732_adapter`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_adapter.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_adapter.step
+Closing omvh732_adapter
+Visiting file omvh732_front v26 . f3d
+Opening `omvh732_front`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_front.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_front.step
+Closing omvh732_front
+Visiting file omvh732_softmount_rear v4 . f3d
+Opening `omvh732_softmount_rear`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_softmount_rear.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_softmount_rear.step
+Closing omvh732_softmount_rear
+Visiting file omvh732_usb_retainer v9 . f3d
+Opening `omvh732_usb_retainer`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_usb_retainer.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_usb_retainer.step
+Closing omvh732_usb_retainer
+Visiting file omvh732_usb_retainer_gasket v3 . f3d
+Opening `omvh732_usb_retainer_gasket`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_usb_retainer_gasket.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/omvh732_usb_retainer_gasket.step
+Closing omvh732_usb_retainer_gasket
+Visiting file openmv-h7-body-strain-relief v3 . f3d
+Opening `openmv-h7-body-strain-relief`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/openmv-h7-body-strain-relief.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_fff/openmv-h7-body-strain-relief.step
+Closing openmv-h7-body-strain-relief
+Visiting folder process_laser_cut
+Visiting file body-bottom v5 . f3d
+Opening `body-bottom`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_laser_cut/body-bottom.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_laser_cut/body-bottom.step
+Closing body-bottom
+Visiting file front-bracket v2 . f3d
+Opening `front-bracket`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_laser_cut/front-bracket.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_laser_cut/front-bracket.step
+Closing front-bracket
+Visiting file top-bracket v2 . f3d
+Opening `top-bracket`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_laser_cut/top-bracket.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/02_parts_custom/process_laser_cut/top-bracket.step
+Closing top-bracket
+Visiting folder 03_sub_assemblies
+Visiting file dragon_ear_port v37 . f3d
+Opening `dragon_ear_port`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/dragon_ear_port.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/dragon_ear_port.step
+Closing dragon_ear_port
+Visiting file dragon_ear_starboard v28 . f3d
+Opening `dragon_ear_starboard`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/dragon_ear_starboard.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/dragon_ear_starboard.step
+Closing dragon_ear_starboard
+Visiting file dragon_nose v8 . f3d
+Opening `dragon_nose`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/dragon_nose.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/dragon_nose.step
+Closing dragon_nose
+Visiting file dust_cover v24 . f3d
+Opening `dust_cover`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/dust_cover.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/dust_cover.step
+Closing dust_cover
+Visiting file ethernet_guide v14 . f3d
+Opening `ethernet_guide`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/ethernet_guide.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/ethernet_guide.step
+Closing ethernet_guide
+Visiting file jig_teststand v24 . f3d
+Opening `jig_teststand`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/jig_teststand.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/jig_teststand.step
+Closing jig_teststand
+Visiting file omvh732_front v3 . f3d
+Opening `omvh732_front`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/omvh732_front.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/omvh732_front.step
+Closing omvh732_front
+Visiting file pi_zero_compute_module v15 . f3d
+Opening `pi_zero_compute_module`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/pi_zero_compute_module.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/03_sub_assemblies/pi_zero_compute_module.step
+Closing pi_zero_compute_module
+Visiting folder 04_assemblies
+Visiting file AS1334 v42 . f3d
+Opening `AS1334`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1334.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1334.step
+Closing AS1334
+Visiting file AS1335 v64 . f3d
+Opening `AS1335`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1335.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1335.step
+Closing AS1335
+Visiting file AS1336 v168 . f3d
+Opening `AS1336`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1336.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1336.step
+Closing AS1336
+Visiting file AS1337 v66 . f3d
+Opening `AS1337`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1337.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1337.step
+Closing AS1337
+Visiting file AS1338 v34 . f3d
+Opening `AS1338`
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1338.f3d
+Saved /Volumes/workspace/github/scottdarch/l3xz-hw-pan-tilt-head/models/04_assemblies/AS1338.step
+Closing AS1338

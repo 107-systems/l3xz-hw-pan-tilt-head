@@ -125,9 +125,9 @@ def export_filename(ctx: Ctx, format: Format, file):
 
 def export_file(ctx: Ctx, format: Format, file, doc: LazyDocument) -> Counter:
     output_path = export_filename(ctx, format, file)
-    if output_path.exists():
-        log(f'{output_path} already exists, skipping')
-        return Counter(skipped=1)
+    # if output_path.exists():
+    #     log(f'{output_path} already exists, skipping')
+    #     return Counter(skipped=1)
 
     doc.open()
 
