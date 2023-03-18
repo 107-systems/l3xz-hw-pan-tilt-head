@@ -130,7 +130,6 @@ def export_file(ctx: Ctx, format: Format, file, doc: LazyDocument) -> Counter:
         return Counter(skipped=1)
 
     doc.open()
-    doc.update()
 
     # I'm just taking this from here https://github.com/tapnair/apper/blob/master/apper/Fusion360Utilities.py
     # is there a nicer way to do this??

@@ -350,9 +350,10 @@ _<sup>†</sup>Unless otherwise specified, all mechanical part numbers are McMas
 
 ### Assemblies (AS)
 
-| Ct. | Part Number | Image     | Anim. | Sub-Parts | Description | Assembly Instructions |
-|-----|-------------|-----------|-------|-----------|-------------|-----------------------|
-| 1   | AS1332      | [<img src="./media/AS1332.png" height=50px/>](./media/AS1332.png) | | <ul><li>CF0531</li><li>CF0532</li><li>CF0533</li><li>CF0534</li></ul> | Dragon Beard Dust Cover | (TODO) | 
-| 1   | AS1333      | [<img src="./media/AS1333.png" height=50px/>](./media/AS1333.png) | [✓](./media/AS1333.mp4) | <ul><li>CF0535</li><li>CF0536</li></ul> | Ethernet cable guide | (TODO) |
-| 1   | AS1334      | [<img src="./media/AS1334.png" height=50px/>](./media/AS1334.png) | [✓](./media/AS1334.mp4) | (TODO)| Dragon Face| (TODO) |
-| 1   | AS1335       | [<img src="./media/AS1335.png" height=50px/>](./media/AS1335.png) | [✓](./media/AS1335.mp4) | (TODO)| Dragon Throat| (TODO) |
+| Ct. | Part Number | Image     | Anim. | Description |
+|-----|-------------|-----------|-------|-------------|
+| 1   | AS1334      | [<img src="./media/AS1334.png" height=50px/>](./media/AS1334.png) | [✓](./media/AS1334.mp4) | Dragon Face|
+| 1   | AS1335       | [<img src="./media/AS1335.png" height=50px/>](./media/AS1335.png) | [✓](./media/AS1335.mp4) | Dragon Throat|
+| 1   | AS1336       | [<img src="./media/AS1336.png" height=50px/>](./media/AS1336.png) | [✓](./media/AS1336.mp4) | OpenMV H7 Camera Enclosure |
+| 1   | AS1337       | [<img src="./media/AS1337.png" height=50px/>](./media/AS1337.png) | [✓](./media/AS1337.mp4) | Camera Head |
+| 1   | AS1338       | [<img src="./media/AS1338.png" height=50px/>](./media/AS1338.png) | [✓](./media/AS1338.mp4) | Main Assembly |
