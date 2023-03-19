@@ -4,14 +4,19 @@
 
 _(note that pngs with labels have draw.io diagrams embedded in them and can be edited using draw.io)_
 
+![00 main LEFT](./media/AS1338_HERO.png)
+
 ### Left View/  Starboard Side
-![00 main LEFT](./media/00_main_LEFT.png)
+![AS1338 LEFT](./media/AS1338_LEFT.png)
 
 ### Front View
-![00 main FRONT](./media/00_main_FRONT.png)
+![AS1338 FRONT](./media/AS1338_FRONT.png)
 
 ### Right View / Port Side
-![00 main RIGHT](./media/00_main_RIGHT.png) 
+![AS1338 RIGHT](./media/AS1338_RIGHT.png) 
+
+### Motion Study
+[AS1338 MOTION](./media/AS1338_MOTION.mp4) 
 
 ## Part Schedule
 
