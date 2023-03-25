@@ -49,6 +49,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </th>
 <th>Count</th>
 <th>Part Number</th>
+<th>Thumbnail</th>
 <th>Description</th>
 <th>Step File</th>
 <th>GCode File</th>
@@ -63,6 +64,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 <td>1</td>
 <td>CF0531</td>
+<td><img src="media/CF0531_thumb.png"/></td>
 <td>Dragon Beard dust guard: front plate</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_front.step">✓</a></td>
 <td rowspan="4"><a href="./gcode/dragon_beard_dustcover_0.15mm_PETG_MINI_1h24m.gcode">✓</a></td>
@@ -79,18 +81,21 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>1</td>
 <td>CF0532</td>
+<td><img src="media/CF0532_thumb.png"/></td>
 <td>Dragon Beard dust guard: side plate, port</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_port.step">✓</a></td>
 </tr>
 <tr>
 <td>1</td>
 <td>CF0533</td>
+<td><img src="media/CF0533_thumb.png"/></td>
 <td>Dragon Beard dust guard: rear plate</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_rear.step">✓</a></td>
 </tr>
 <tr>
 <td>1</td>
 <td>CF0534</td>
+<td><img src="media/CF0534_thumb.png"/></td>
 <td>Dragon Beard dust guard: side plate, starboard</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_dust_cover_starboard.step">✓</a></td>
 </tr>
@@ -98,6 +103,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>1</td>
 <td>CF0535</td>
+<td><img src="media/CF0535_thumb.png"/></td>
 <td>Ethernet Cable Guide, top</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_neck_ethernet_guide_top.step">✓</a></td>
 <td rowspan="2"><a href="./gcode/Ethernet_guide_0.15mm_PETG_MINI_59m.gcode">✓</a></td>
@@ -105,12 +111,14 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>1</td>
 <td>CF0536</td>
+<td><img src="media/CF0536_thumb.png"/></td>
 <td>Ethernet Cable Guide, bottom</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_neck_ethernet_guide_bottom.step">✓</a></td>
 </tr>
 <tr>
 <td>2</td>
 <td>CF0538</td>
+<td><img src="media/CF0538_thumb.png"/></td>
 <td>Axial Squash Plate</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_eye_squashplate_axial.step">✓</a></td>
 <td rowspan="2"><a href="./gcode/squash_plates_0.15mm_PETG_MINI_27m.gcode">✓</a></td>
@@ -118,12 +126,14 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>4</td>
 <td>CF0539</td>
+<td><img src="media/CF0539_thumb.png"/></td>
 <td>Distal Squash Plate</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_eye_squashplate.step">✓</a></td>
 </tr>
 <tr>
 <td>2</td>
 <td>CF0537</td>
+<td><img src="media/CF0537_thumb.png"/></td>
 <td>OpenMV H7 Case, Front</td>
 <td><a href="./models/02_parts_custom/process_fff/omvh732_front.step">✓</a></td>
 <td><a href="./gcode/omvh732_front_0.15mm_PETG_MINI_2h7m.gcode">✓</a></td>
@@ -140,6 +150,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>2</td>
 <td>CF0562</td>
+<td><img src="media/CF0562_thumb.png"/></td>
 <td>OpenMV H7 Case, USB Retainer</td>
 <td></td>
 <td><a href="./gcode/omvh732_usb_retainer_0.15mm_PETG_MINI_39m.gcode">✓</a></td>
@@ -160,6 +171,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 <td>2</td>
 <td>CF0540</td>
+<td><img src="media/CF0540_thumb.png"/></td>
 <td>OpenMV H7 Case, soft-mount, rear.</td>
 <td><a href="./models/02_parts_custom/process_fff/omvh732_softmount_rear.step">✓</a></td>
 <td rowspan="4"><a href="./gcode/omvh732_softparts_0.2mm_FLEX_MINI_34m.gcode">✓</a></td>
@@ -177,33 +189,38 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>2</td>
 <td>CF0541</td>
+<td><img src="media/CF0541_thumb.png"/></td>
 <td>OpenMV H7 Case, soft-mount, front-top.</td>
 <td><a href="./models/02_parts_custom/process_fff/omhv732_softmount_front_top.step">✓</a></td>
 </tr>
 <tr>
 <td>2</td>
 <td>CF0542</td>
+<td><img src="media/CF0542_thumb.png"/></td>
 <td>OpenMV H7 Case, soft-mount, front-bottom.</td>
 <td><a href="./models/02_parts_custom/process_fff/omhv732_softmount_front_bottom.step">✓</a></td>
 </tr>
 <tr>
 <td>4</td>
 <td>CF0543</td>
+<td><img src="media/CF0543_thumb.png"/></td>
 <td>OpenMV H7 Case, no-connector strain-relief.</td>
 <td><a href="./models/02_parts_custom/process_fff/openmv-h7-body-strain-relief.step">✓</a></td>
 </tr>
 <tr>
 <td>1</td>
 <td>CF0580</td>
+<td><img src="media/CF0580_thumb.png"/></td>
 <td>OpenMV H7 Case, AAOTOKK USB Micro Retainer Gasket.</td>
-<td><a href="">ERROR</a></td>
-<td><a href="./gcode/omvh732_usb_retainer_gasket_0.15mm_FLEX_MINI_20m.gcode">✓</a></td>
+<td><a href="./models/02_parts_custom/process_fff/omvh732_usb_retainer_gasket.step">✓</a></td>
+<td><a href="./gcode/d.15mm_FLEX_MINI_20m.gcode">✓</a></td>
 </tr>
 <tr>
 <td>7</td>
 <td>CF0581</td>
+<td><img src="media/CF0581_thumb.png"/></td>
 <td>Dragon Ear ISO mount spacers</td>
-<td><a href="">ERROR</a></td>
+<td><a href="models/02_parts_custom/process_fff/dragon_ear_iso_spacer.step">✓</a></td>
 <td><a href="./gcode/iso_spacer_0.2mm_FLEX_MINI_7m.gcode">✓</a></td>
 </tr>
 <tr>
@@ -213,12 +230,13 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 <td>2</td>
 <td>CF0544</td>
+<td><img src="media/CF0544_thumb.png"/></td>
 <td>OpenMV H7 Case, light-pipe.</td>
 <td><a href="./models/02_parts_custom/process_fff/omhv732_lightpipe_front.step">✓</a></td>
 <td><a href="./gcode/omvh732_lightpipe_0.2mm_PVB_MINI_5m.gcode">✓</a></td>
 </tr>
 <tr>
-<td rowspan="9">
+<td rowspan="10">
     <strong>RM0054</strong><br/>
     &gt;&nbsp;Prusament&nbsp;PC&nbsp;Blend&nbsp;Carbon&nbsp;Fiber&nbsp;+
     <ul>
@@ -229,6 +247,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 <td>1</td>
 <td>CF0545</td>
+<td><img src="media/CF0545_thumb.png"/></td>
 <td>Dragon Beard boot: design variant 1</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_boot_d1.step">✓</a></td>
 <td><a href="./gcode/boot_d1_0.15mm_PC_MINI_39m.gcode">✓</a></td>
@@ -244,6 +263,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>1</td>
 <td>CF0546</td>
+<td><img src="media/CF0546_thumb.png"/></td>
 <td>Dragon Beard boot: design variant_2</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_boot_d2.step">✓</a></td>
 <td><a href="./gcode/boot_d2_0.15mm_PC_MINI_39m.gcode">✓</a></td>
@@ -251,6 +271,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>1</td>
 <td>CF0547</td>
+<td><img src="media/CF0547_thumb.png"/></td>
 <td>Dragon Beard hanger</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_beard_hanger.step">✓</a></td>
 <td><a href="./gcode/hanger_0.15mm_PC_MINI_2h8m.gcode">✓</a></td>
@@ -258,13 +279,15 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>1</td>
 <td>CF0548</td>
-<td>Dragon Beard neck</td>
+<td><img src="media/CF0548_thumb.png"/></td>
+<td>Dragon Beard neck (25mm)</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_neck_25mm.step">✓</a></td>
 <td><a href="./gcode/neck_25mm_0.15mm_PC_MINI_2h9m.gcode">✓</a></td>
 </tr>
 <tr>
 <td>1</td>
 <td>CF0549</td>
+<td><img src="media/CF0549_thumb.png"/></td>
 <td>Dragon Nose</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_nose.step">✓</a></td>
 <td><a href="./gcode/nose_0.15mm_PC_MINI_1h9m.gcode">✓</a></td>
@@ -282,6 +305,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>2</td>
 <td>CF0550</td>
+<td><img src="media/CF0550_thumb.png"/></td>
 <td>OpenMV H7 Case: Rear</td>
 <td><a href="./models/02_parts_custom/process_fff/omvh732_rear.step">✓</a></td>
 <td><a href="./gcode/omvh732_rear_0.15mm_PC_MINI_1h43m.gcode">✓</a></td>
@@ -289,6 +313,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 <tr>
 <td>1</td>
 <td>CF0552</td>
+<td><img src="media/CF0552_thumb.png"/></td>
 <td>Dragon Ear: Port-side</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_ear_port.step">✓</a></td>
 <td><a href="./gcode/dragon_ear_port_0.15mm_PC_MINI_2h5m.gcode">✓</a></td>
@@ -304,7 +329,23 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </tr>
 <tr>
 <td>1</td>
+<td>CF0554</td>
+<td><img src="media/CF0554_thumb.png"/></td>
+<td>OpenMV H7 Case: mounting adapter</td>
+<td><a href="./models/02_parts_custom/process_fff/omvh732_adapter.step">✓</a></td>
+<td><a href="./gcode/omv732_adapter_0.15mm_PC_MINI_39m.gcode">✓</a></td>
+<td>0.10</td>
+<td>
+<ul>
+    <li>Infill: Rectilinear 100%</li>
+    <li>powder-coated sheet</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>1</td>
 <td>CF0551</td>
+<td><img src="media/CF0551_thumb.png"/></td>
 <td>Dragon Ear: Starboard-side</td>
 <td><a href="./models/02_parts_custom/process_fff/dragon_ear_starboard.step">✓</a></td>
 <td><a href="./gcode/dragon_ear_starboard_0.15mm_PC_MINI_1h54m.gcode">✓</a></td>
@@ -320,8 +361,9 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </tr>
 <tr>
 <td>1</td>
-<td>CF0551</td>
-<td>Dragon Ear: Starboard-side</td>
+<td>CF0553</td>
+<td><img src="media/CF0553_thumb.png"/></td>
+<td>Hexapod Emblem</td>
 <td><a href="./models/00_marks_and_decals/hexapod makers mark.step">✓</a></td>
 <td><a href="./gcode/hexapod_logo_0.1mm_PC_MINI_3m.gcode">✓</a></td>
 <td>0.10</td>
