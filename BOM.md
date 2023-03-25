@@ -34,6 +34,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 |      RM0879 | (generic)    | B07XFMPQR1           | 304 Stainless Steel Woven Wire 120 Mesh Fine Screen | | | [amazon](https://www.amazon.com/gp/product/B07XFMPQR1) |
 |      RM0889 | 3M           | AC79                 | 3M Scotch-Weld Instant Adhesive Primer | [✓](./datasheets/sds/AC79.pdf) | [✓](./datasheets/tds/AC79.pdf) | [amazon](https://www.amazon.com/gp/product/B071W9H889) |
 |      RM0890 | Loctite      | Threadlocker Blue 242 | Removable thread locker to prevent self-loosening | [✓](./datasheets/sds/loctite_blue.pdf) | [✓](./datasheets/tds/loctite_blue.pdf) | [loctite](https://www.loctiteproducts.com/en/products/specialty-products/specialty/loctite_threadlockerblue242.html) |
+|      RM0318 | Eclectic     | E6000                | Flexible, clear adhesive | | [✓](./datasheets/tds/tds-e6000-craft-us-ca-me-au-nz-mex.pdf) | [eclectic](https://eclecticproducts.com/product/e6000-industrial-adhesive/)|
 
 ### Custom FFF Parts (CF)
 
@@ -328,7 +329,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 </td>
 </tr>
 <tr>
-<td>1</td>
+<td>2</td>
 <td>CF0554</td>
 <td><img src="media/CF0554_thumb.png"/></td>
 <td>OpenMV H7 Case: mounting adapter</td>
