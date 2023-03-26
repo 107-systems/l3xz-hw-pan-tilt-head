@@ -14,7 +14,7 @@ _(note that pngs with labels have draw.io diagrams embedded in them and can be e
 
 ![00 main LEFT](./media/AS1338_HERO.png)
 
-### Left View/  Starboard Side
+### Left View / Starboard Side
 ![AS1338 LEFT](./media/AS1338_LEFT.png)
 
 ### Front View
