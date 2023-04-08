@@ -5,6 +5,8 @@
 
 This repository contains the design files for [L3X-Z](https://github.com/107-systems/l3xz)'s pan/tilt color/thermal camera head.
 
+The necessary [ROS](https://docs.ros.org/en/humble/Releases.html)-based driver software for installation on the Raspberry Pi Zero can be found [here](https://github.com/107-systems/l3xz-sw-pan-tilt-head).
+
 <p align="center">
   <a href="https://github.com/107-systems/l3xz"><img src="https://raw.githubusercontent.com/107-systems/.github/main/logo/l3xz-logo-memento-mori-github.png" width="40%"></a>
 </p>
