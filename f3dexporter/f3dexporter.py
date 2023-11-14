@@ -1,5 +1,5 @@
 #
-# licenced into the public domain by https://github.com/aconz2/Fusion360Exporter
+# licensed into the public domain by https://github.com/aconz2/Fusion360Exporter
 # add as a "script" in fusion 360.
 #
 
